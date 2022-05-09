@@ -8,8 +8,7 @@ constantly==15.1.0
 cryptography==37.0.2
 daphne==3.0.2
 Django==4.0.4
-# Editable install with no version control (django-chat==0.1.0)
--e c:\users\vajma\desktop\genos repos\lims\django-chat
+-e git+ssh://git@github.com/brapcan/django_chat.git@8332060da8e55a789157cbe0bf2aaa975adea4b0#egg=django_chat
 hyperlink==21.0.0
 idna==3.3
 incremental==21.3.0
