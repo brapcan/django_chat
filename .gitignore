@@ -1,0 +1,29 @@
+# vim
+.*.swp
+
+# pandoc
+README.html
+
+# coverage
+.coverage
+htmlcov
+
+# pip
+*.egg-info
+__pycache__
+venv
+
+# build
+dist
+build
+.eggs
+
+# setuptools_scm
+version.py
+
+# django
+db.sqlite3
+
+# aws
+*-deploy
+*-deploy.pub
